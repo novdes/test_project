@@ -1,0 +1,27 @@
+{
+  "rest" : {
+    "url" : "localhost",
+    "port" : 8080
+  },
+
+  "websocket" : {
+    "url" : "localhost",
+    "port" : 8081
+  },
+
+  "amqp" : {
+    "url" : "localhost",
+    "port" : 5672,
+    "id" : "rabbitmq",
+    "pwd" : "password"
+  },
+
+  "db" : {
+    "url" : "",
+    "driver_class" : "org.mariadb.jdbc.Driver",
+    "max_pool_size" : "10",
+    "user" : "product",
+    "password" : "password"
+  }
+
+}
